@@ -1,0 +1,181 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+div#header {
+    height: 66px;
+    width: 100%;
+    background: url('../Content/Images/mshopkeeper_logo.png') #026b97 no-repeat 20px 8px;
+}
+div#content {
+    width: 100%;
+    height: 429px;
+    background: #e5e5e5;
+    position: relative;
+}
+div#content_wrap {
+    width: 598px;
+    height: 375px;
+    position: absolute;
+    top: 27px;
+    left: calc(50% - 299px);
+    display: flex;
+}
+div#img_form {
+    display: block;
+    width: 248px;
+    height: 100%;
+    background: url('../Content/Images/banner_login_be.jpg') no-repeat;
+    background-size: contain;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    
+}
+div#form {
+    display: block;
+    width: 350px;
+    height: 100%;
+    background: #fff;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+div#login {
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    color: #026B97;
+    margin-top: 22px;
+    margin-right: 1px;
+}
+input {
+    width: 306px;
+    height: 36px;
+    border-radius: 3px;
+    padding: 6px 10px;
+    border: none;
+    border: 1px solid #abc1de;
+    margin-top: 7px;
+}
+div#form_login form div {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 13px;
+}
+div#form_login form{
+    padding: 10px 20px 0px 21px;
+}
+div#form_login form div#username {
+    margin-top: 18px;
+}
+div#form_login form div#pass {
+    margin-top: 12px;
+}
+input::-webkit-input-placeholder {
+    color: #757575;
+    font-size: .7rem;
+    font-weight: 300;
+}
+button {
+    width: 310px;
+    height: 42px;
+    background: #026b97;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Roboto;
+    color: #fff;
+    margin-top: 14px;
+    margin-left: -2px;
+    cursor: pointer;
+}
+div#support {
+    padding-left: 21px;
+    padding-right: 22px;
+    margin-top: 14px;
+}
+div#support a {
+    color: #0072BC;
+    font-size: 13px;
+    font-family: Roboto;
+}
+div#support a:nth-child(1) {
+    float: left;
+}
+div#support a:nth-child(2) {
+    float: right;
+}
+div#link {
+    width: 100%;
+    height: 63px;
+    background: #fff;
+    position: fixed;
+    top: 495px;
+    bottom: 48px;
+}
+div#contact {
+    margin-top: 19px;
+    text-align: center;
+    padding-left: 26px;
+}
+div#contact ul li {
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 26px;
+    font-family: Roboto;
+    font-size: 13px;
+    background-position: left center;
+    padding-left: 25px
+}
+div#contact ul li a {
+    color: #026B97;
+}
+div#contact ul li span {
+    color: #404040;
+}
+div#contact ul li:nth-child(1) {
+    background: url('../Content/Images/Support1.png') no-repeat;
+    background-position: 0px 1px;
+}
+div#contact ul li:nth-child(2) {
+    background: url('../Content/Images/mail.png') no-repeat;
+    background-position: 0px 1px;
+}
+div#contact ul li:nth-child(3) {
+    background: url('../Content/Images/ic_video_library.png') no-repeat;
+}
+div#time {
+    text-align: center;
+    margin-top: 9px;
+}
+div#time p {
+    color: #757575;
+    font-size: 13px;
+    font-family: Roboto;
+}
+div#footer {
+    width: 100%;
+    height: 48px;
+    background: #026B96;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+div#footer p {
+    font-family: Roboto;
+    font-size: 13px;
+    color: #fff;
+    padding: 16px 0; 
+}
+  
+
