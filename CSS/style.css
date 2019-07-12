@@ -46,7 +46,6 @@ div#img_form {
     background-size: cover;
     border-bottom-left-radius: 3px;
     border-top-left-radius: 3px;
-   
 }
 div#form {
     display: block;
@@ -56,6 +55,7 @@ div#form {
     border-bottom-right-radius: 3px;
     border-top-right-radius: 3px;
     box-shadow: 3px 1.5px 4px #ada9a9;
+    padding-bottom: 14px;
 }
 div#login {
     text-align: center;
@@ -72,6 +72,7 @@ input {
     border-radius: 3px;
     padding: 6px 10px;
     border: none;
+    outline: none;
     border: 1px solid #abc1de;
     margin-top: 7px;
 }
@@ -80,7 +81,7 @@ div#form_login form div {
     font-weight: 500;
     font-size: 13px;
 }
-div#form_login form{
+div#form_login {
     padding: 10px 20px 0px 21px;
 }
 div#form_login form div#username {
@@ -106,13 +107,13 @@ button {
     font-family: Roboto;
     color: #fff;
     margin-top: 14px;
-    margin-left: -2px;
+    margin-left: -1px;
     cursor: pointer;
 }
 div#support {
     padding-left: 21px;
     padding-right: 22px;
-    margin-top: 14px;
+    margin: 14px 0px;
 }
 div#support a {
     color: #0072BC;
@@ -180,7 +181,7 @@ div#time p {
 div#footer div#copyright {
     height: 48px;
     width: 100%;
-    background: #026b97;
+    background: #026B79;
 }
 div#footer div#copyright p {
     font-family: Roboto;
@@ -188,5 +189,21 @@ div#footer div#copyright p {
     color: #fff;
     padding: 16px 0;
 }
-  
+.warningUsername {
+    padding-left: 4px;
+    font-family: Roboto;
+    font-size: 13px;
+    margin-top: 5px;
+    color: red;
+}
+.warningPass {
+    padding-left: 4px;
+    font-family: Roboto;
+    font-size: 13px;
+    margin-top: 5px;
+    color: red;
+}
+.border-red {
+    border: 1px solid red;
+}
 
